@@ -1,7 +1,7 @@
 import threading
 import socket
 host = 'localhost'
-port = 55524
+port = 2700
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((host, port))
 server.listen()

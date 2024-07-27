@@ -2,7 +2,7 @@ import threading
 import socket
 username = input('Choose an username >>> ')
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('localhost', 55524))
+client.connect(('localhost', 2700))
 
 
 def client_receive():
